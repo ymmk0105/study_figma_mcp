@@ -1,6 +1,6 @@
-# Karaoke Manekineko — Inbound Landing Page
+# Karaoke Wanwan — Inbound Landing Page
 
-Multilingual landing page for Karaoke Manekineko targeting international visitors.
+Multilingual landing page for Karaoke Wanwan targeting international visitors.
 Built with **HTML / CSS / Vanilla JavaScript only** — no frameworks, no build tools.
 
 **Supported languages:** English · 한국어 · 繁體中文 · 简体中文
@@ -105,7 +105,7 @@ After deployment, replace the placeholder domain in each HTML file:
 ```bash
 # Replace all occurrences (Linux/macOS)
 find . -name "*.html" -exec sed -i \
-  's|https://manekineko-inbound.example.com|https://<your-username>.github.io/<repo-name>|g' {} \;
+  's|https://Wanwan-inbound.example.com|https://<your-username>.github.io/<repo-name>|g' {} \;
 ```
 
 ---
@@ -270,7 +270,7 @@ In your Claude Code session with Figma MCP enabled:
 
 ```
 Use the Figma MCP to capture a screenshot of http://localhost:8080
-Import it as a frame named "Manekineko - Homepage"
+Import it as a frame named "Wanwan - Homepage"
 ```
 
 Or use a browser plugin to export the live page as a Figma frame.
@@ -288,7 +288,7 @@ Designers can edit:
 In Claude Code:
 
 ```
-Read the Figma frame "Manekineko - Homepage" and identify changes.
+Read the Figma frame "Wanwan - Homepage" and identify changes.
 Update the CSS variables in assets/css/style.css to match the new design tokens.
 ```
 
@@ -321,7 +321,7 @@ Claude Code will:
 Language is resolved in this priority order:
 
 1. URL parameter: `?lang=ko`
-2. localStorage: `manekineko_lang`
+2. localStorage: `Wanwan_lang`
 3. Browser language preference
 4. Default: `en`
 
@@ -357,4 +357,4 @@ Keep the same filenames, or update `src` attributes in the HTML files.
 
 ## License
 
-For educational / prototype purposes. All Karaoke Manekineko trademarks belong to their respective owners.
+For educational / prototype purposes. All Karaoke Wanwan trademarks belong to their respective owners.

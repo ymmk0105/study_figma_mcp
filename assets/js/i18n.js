@@ -9,7 +9,7 @@
 
   var SUPPORTED_LANGS = ['en', 'ko', 'zh-Hant', 'zh-Hans'];
   var DEFAULT_LANG = 'en';
-  var STORAGE_KEY = 'manekineko_lang';
+  var STORAGE_KEY = 'Wanwan_lang';
   var cachedTranslations = null;
 
   /**

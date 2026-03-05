@@ -20,13 +20,13 @@
     },
     "hero": {
       "title": "Sing Your Heart Out in Japan",
-      "subtitle": "Karaoke Manekineko — Japan's Premier Karaoke Experience for International Visitors",
+      "subtitle": "Karaoke Wanwan — Japan's Premier Karaoke Experience for International Visitors",
       "cta": "Find a Store",
       "ctaSub": "View Plans"
     },
     "about": {
-      "title": "About Karaoke Manekineko",
-      "description": "Karaoke Manekineko is one of Japan's most beloved karaoke chains, offering private karaoke rooms, delicious food and drinks, and cutting-edge entertainment systems. Perfect for tourists, travelers, and anime & music fans.",
+      "title": "About Karaoke Wanwan",
+      "description": "Karaoke Wanwan is one of Japan's most beloved karaoke chains, offering private karaoke rooms, delicious food and drinks, and cutting-edge entertainment systems. Perfect for tourists, travelers, and anime & music fans.",
       "feature1": "Private Rooms",
       "feature1Desc": "Enjoy karaoke in your own comfortable private room with friends and family.",
       "feature2": "Delicious Food",
@@ -45,7 +45,7 @@
     },
     "stores": {
       "title": "Recommended Stores",
-      "subtitle": "Find a Manekineko location near you",
+      "subtitle": "Find a Wanwan location near you",
       "viewAll": "View All Stores",
       "area": "Area",
       "hours": "Hours",
@@ -97,28 +97,28 @@
       "feature3": "Anime Screenings",
       "feature3Desc": "Enjoy special anime screenings and movie events with fellow fans.",
       "feature4": "Easy Booking",
-      "feature4Desc": "Simple online booking for Raibo events at your nearest Manekineko store.",
+      "feature4Desc": "Simple online booking for Raibo events at your nearest Wanwan store.",
       "learnMore": "Learn More About Raibo",
       "bookNow": "Book Now"
     },
     "faq": {
       "title": "Frequently Asked Questions",
-      "subtitle": "Everything you need to know about visiting Manekineko",
+      "subtitle": "Everything you need to know about visiting Wanwan",
       "viewAll": "View All FAQs",
       "q1": "Do you have English-language song selections?",
-      "a1": "Yes! Manekineko offers an extensive library of English songs, as well as songs in Korean, Chinese, and many other languages. You can search by artist name or song title in your language.",
+      "a1": "Yes! Wanwan offers an extensive library of English songs, as well as songs in Korean, Chinese, and many other languages. You can search by artist name or song title in your language.",
       "q2": "Can I make a reservation in advance?",
       "a2": "Yes, you can make reservations online through our website or by calling the store directly. Walk-ins are also welcome based on room availability.",
       "q3": "Is there a minimum charge or time requirement?",
       "a3": "There is typically a minimum 30-minute session. Pricing varies by time of day and store location. Please check the store page for detailed pricing.",
       "q4": "Do you accept credit cards and foreign currency?",
-      "a4": "Most Manekineko locations accept major credit cards (Visa, Mastercard, Amex). Some locations also accept IC cards and QR payment (PayPay, Alipay, WeChat Pay). Cash payment in Japanese Yen is also accepted.",
+      "a4": "Most Wanwan locations accept major credit cards (Visa, Mastercard, Amex). Some locations also accept IC cards and QR payment (PayPay, Alipay, WeChat Pay). Cash payment in Japanese Yen is also accepted.",
       "q5": "Are there English-speaking staff?",
       "a5": "Many of our popular tourist locations have English-speaking staff. Translation assistance is also available via our app and in-room tablets."
     },
     "cta": {
       "title": "Ready to Sing?",
-      "subtitle": "Find your nearest Manekineko store and book today!",
+      "subtitle": "Find your nearest Wanwan store and book today!",
       "button": "Find a Store",
       "buttonSub": "View Plans"
     },
@@ -127,24 +127,24 @@
       "quickLinks": "Quick Links",
       "services": "Services",
       "contact": "Contact",
-      "address": "Manekineko Co., Ltd.",
-      "copyright": "\u00a9 2024 Karaoke Manekineko. All rights reserved.",
+      "address": "Wanwan Co., Ltd.",
+      "copyright": "\u00a9 2024 Karaoke Wanwan. All rights reserved.",
       "privacy": "Privacy Policy",
       "terms": "Terms of Service"
     },
     "page": {
-      "menuTitle": "Menu | Karaoke Manekineko",
-      "menuDesc": "Explore the full food and drink menu at Karaoke Manekineko. Enjoy karaage, fries, cocktails, and more while singing.",
-      "storesTitle": "Stores | Karaoke Manekineko",
-      "storesDesc": "Find Karaoke Manekineko locations across Japan. Stores in Tokyo, Osaka, Kyoto, Sapporo and more.",
-      "serviceTitle": "Services & Plans | Karaoke Manekineko",
-      "serviceDesc": "Discover pricing plans and services at Karaoke Manekineko. Daytime, night, and all-night plans available.",
-      "eboTitle": "E-bo Entertainment | Karaoke Manekineko",
-      "eboDesc": "E-bo brings console gaming, sports streaming, and smartphone control to your karaoke room at Manekineko.",
-      "raiboTitle": "Raibo Live Viewing | Karaoke Manekineko",
+      "menuTitle": "Menu | Karaoke Wanwan",
+      "menuDesc": "Explore the full food and drink menu at Karaoke Wanwan. Enjoy karaage, fries, cocktails, and more while singing.",
+      "storesTitle": "Stores | Karaoke Wanwan",
+      "storesDesc": "Find Karaoke Wanwan locations across Japan. Stores in Tokyo, Osaka, Kyoto, Sapporo and more.",
+      "serviceTitle": "Services & Plans | Karaoke Wanwan",
+      "serviceDesc": "Discover pricing plans and services at Karaoke Wanwan. Daytime, night, and all-night plans available.",
+      "eboTitle": "E-bo Entertainment | Karaoke Wanwan",
+      "eboDesc": "E-bo brings console gaming, sports streaming, and smartphone control to your karaoke room at Wanwan.",
+      "raiboTitle": "Raibo Live Viewing | Karaoke Wanwan",
       "raiboDesc": "Raibo lets you watch live concerts, sports, and anime on a massive screen in your private karaoke room.",
-      "faqTitle": "FAQ | Karaoke Manekineko",
-      "faqDesc": "Frequently asked questions about visiting Karaoke Manekineko. English, Korean, and Chinese support."
+      "faqTitle": "FAQ | Karaoke Wanwan",
+      "faqDesc": "Frequently asked questions about visiting Karaoke Wanwan. English, Korean, and Chinese support."
     }
   },
   "ko": {

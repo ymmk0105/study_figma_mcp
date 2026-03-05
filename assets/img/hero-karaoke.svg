@@ -41,6 +41,6 @@
   <text x="1100" y="300" font-size="64" fill="white" opacity="0.12" font-family="serif">&#9833;</text>
   <text x="80" y="500" font-size="36" fill="white" opacity="0.1" font-family="serif">&#9834;</text>
   <!-- Label -->
-  <text x="720" y="380" text-anchor="middle" font-family="system-ui, sans-serif" font-size="24" fill="white" opacity="0.5">Karaoke Manekineko</text>
+  <text x="720" y="380" text-anchor="middle" font-family="system-ui, sans-serif" font-size="24" fill="white" opacity="0.5">Karaoke Wanwan</text>
   <text x="720" y="420" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="white" opacity="0.3">Hero Image Placeholder — Replace with actual photo</text>
 </svg>

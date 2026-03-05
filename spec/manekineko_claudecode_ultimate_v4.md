@@ -1,6 +1,6 @@
 
 # ClaudeCode Ultimate Spec v4
-Karaoke Manekineko Inbound Landing Page Generator
+Karaoke Wanwan Inbound Landing Page Generator
 Target: Claude Code
 Purpose: Generate a near-production multilingual inbound landing page with Figma MCP bidirectional workflow.
 
@@ -9,10 +9,10 @@ Purpose: Generate a near-production multilingual inbound landing page with Figma
 ============================================================
 
 Generate a multilingual inbound landing page promoting
-"Karaoke Manekineko" to international visitors.
+"Karaoke Wanwan" to international visitors.
 
 Primary objective:
-Increase inbound tourists visiting Karaoke Manekineko.
+Increase inbound tourists visiting Karaoke Wanwan.
 
 Target audience:
 - Tourists currently visiting Japan
@@ -100,7 +100,7 @@ Language Switcher
 ============================================================
 
 Hero
-About Manekineko
+About Wanwan
 Recommended Menu
 Recommended Stores
 Plans
@@ -244,7 +244,7 @@ localStorage persistence
 
 E-bo content source:
 
-https://www.karaokemanekineko.jp/service/e-bo/
+https://www.karaokeWanwan.jp/service/e-bo/
 
 Summarize:
 
@@ -255,7 +255,7 @@ Summarize:
 
 Raibo content source:
 
-https://www.karaokemanekineko.jp/service/lv/
+https://www.karaokeWanwan.jp/service/lv/
 
 Summarize:
 
