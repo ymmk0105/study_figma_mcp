@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="drinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6a1b9a"/>
+      <stop offset="100%" stop-color="#1a237e"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#drinkGrad)"/>
+  <!-- Bubbles -->
+  <circle cx="100" cy="200" r="30" fill="rgba(255,255,255,0.05)"/>
+  <circle cx="320" cy="100" r="50" fill="rgba(255,255,255,0.04)"/>
+  <circle cx="50" cy="80" r="20" fill="rgba(255,255,255,0.06)"/>
+  <!-- Glass -->
+  <path d="M160 80 L240 80 L220 220 L180 220 Z" fill="rgba(255,255,255,0.15)"/>
+  <path d="M163 80 L237 80 L218 215 L182 215 Z" fill="rgba(255,255,255,0.1)"/>
+  <!-- Liquid -->
+  <path d="M168 130 L232 130 L218 215 L182 215 Z" fill="#ff4081" opacity="0.7"/>
+  <path d="M168 130 L232 130 L228 145 L172 145 Z" fill="rgba(255,255,255,0.2)"/>
+  <!-- Ice cubes -->
+  <rect x="185" y="160" width="22" height="22" rx="4" fill="rgba(255,255,255,0.4)" transform="rotate(15 196 171)"/>
+  <rect x="200" y="175" width="20" height="20" rx="4" fill="rgba(255,255,255,0.35)" transform="rotate(-10 210 185)"/>
+  <!-- Straw -->
+  <rect x="226" y="85" width="5" height="100" rx="2.5" fill="#ff4081"/>
+  <!-- Garnish - lemon slice -->
+  <circle cx="240" cy="85" r="22" fill="#ffee58"/>
+  <circle cx="240" cy="85" r="18" fill="#fff176"/>
+  <line x1="240" y1="63" x2="240" y2="107" stroke="#f9a825" stroke-width="1.5" opacity="0.8"/>
+  <line x1="218" y1="85" x2="262" y2="85" stroke="#f9a825" stroke-width="1.5" opacity="0.8"/>
+  <!-- Stars -->
+  <text x="120" y="130" font-size="16" fill="white" opacity="0.4">&#10022;</text>
+  <text x="300" y="180" font-size="20" fill="white" opacity="0.3">&#10022;</text>
+  <text x="80" y="60" font-size="12" fill="white" opacity="0.3">&#10022;</text>
+  <!-- Label -->
+  <text x="200" y="275" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="white" font-weight="600">Lemon Sour Cocktail</text>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="450" viewBox="0 0 600 450">
+  <defs>
+    <linearGradient id="roomBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1b2a"/>
+      <stop offset="100%" stop-color="#1b2838"/>
+    </linearGradient>
+    <linearGradient id="screenGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00e5ff"/>
+      <stop offset="50%" stop-color="#7c4dff"/>
+      <stop offset="100%" stop-color="#00e5ff"/>
+    </linearGradient>
+  </defs>
+  <!-- Room background -->
+  <rect width="600" height="450" fill="url(#roomBg)"/>
+  <!-- Ambient glow -->
+  <rect x="100" y="80" width="400" height="220" fill="#7c4dff" opacity="0.04" rx="4"/>
+  <!-- TV Screen -->
+  <rect x="80" y="60" width="440" height="250" fill="#0a0a1a" rx="8"/>
+  <rect x="84" y="64" width="432" height="242" fill="#000820" rx="6"/>
+  <!-- Screen content - game scene -->
+  <rect x="84" y="64" width="432" height="242" fill="url(#screenGlow)" opacity="0.08" rx="6"/>
+  <!-- Game landscape -->
+  <rect x="84" y="200" width="432" height="106" fill="#1a2a1a" rx="0"/>
+  <rect x="84" y="64" width="432" height="140" fill="#000d2e" rx="6" style="border-radius:6px 6px 0 0"/>
+  <!-- Stars in game -->
+  <circle cx="120" cy="90" r="2" fill="white" opacity="0.8"/>
+  <circle cx="200" cy="75" r="1.5" fill="white" opacity="0.6"/>
+  <circle cx="350" cy="95" r="2" fill="white" opacity="0.7"/>
+  <circle cx="450" cy="80" r="1.5" fill="white" opacity="0.5"/>
+  <circle cx="490" cy="110" r="1" fill="white" opacity="0.6"/>
+  <!-- Game character (simple) -->
+  <rect x="270" y="165" width="20" height="30" fill="#00e5ff" rx="3"/>
+  <circle cx="280" cy="160" r="10" fill="#00e5ff"/>
+  <!-- HUD elements -->
+  <rect x="95" y="74" width="80" height="14" fill="#00e5ff" opacity="0.3" rx="2"/>
+  <text x="100" y="85" font-size="9" fill="#00e5ff" font-family="monospace">HP ████████ 100</text>
+  <rect x="420" y="74" width="85" height="14" fill="#ff6d00" opacity="0.3" rx="2"/>
+  <text x="425" y="85" font-size="9" fill="#ff6d00" font-family="monospace">SCORE: 98500</text>
+  <!-- TV Stand -->
+  <rect x="270" y="310" width="60" height="15" rx="3" fill="#1a1a2e"/>
+  <rect x="240" y="322" width="120" height="8" rx="4" fill="#0d0d1f"/>
+  <!-- Controller -->
+  <ellipse cx="300" cy="380" rx="80" ry="35" fill="#1a1a2e"/>
+  <ellipse cx="300" cy="375" rx="76" ry="30" fill="#252540"/>
+  <!-- D-pad -->
+  <rect x="248" y="367" width="20" height="8" rx="2" fill="#1a1a2e"/>
+  <rect x="254" y="361" width="8" height="20" rx="2" fill="#1a1a2e"/>
+  <!-- Buttons -->
+  <circle cx="345" cy="362" r="7" fill="#ff1744" opacity="0.9"/>
+  <circle cx="360" cy="375" r="7" fill="#00e5ff" opacity="0.9"/>
+  <circle cx="345" cy="388" r="7" fill="#69f0ae" opacity="0.9"/>
+  <circle cx="330" cy="375" r="7" fill="#ffd740" opacity="0.9"/>
+  <!-- Ambient LEDs -->
+  <rect x="80" y="56" width="440" height="4" fill="#7c4dff" opacity="0.5" rx="2"/>
+  <!-- Label -->
+  <text x="300" y="435" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="rgba(255,255,255,0.4)">E-bo Gaming — Placeholder Image</text>
+</svg>

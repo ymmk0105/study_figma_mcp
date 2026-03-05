@@ -1,0 +1,133 @@
+{
+  "categories": [
+    {
+      "id": "food",
+      "nameKey": "menu.catFood",
+      "names": { "en": "Food", "ko": "푸드", "zh-Hant": "食物", "zh-Hans": "食物" }
+    },
+    {
+      "id": "drinks",
+      "nameKey": "menu.catDrinks",
+      "names": { "en": "Drinks", "ko": "음료", "zh-Hant": "飲料", "zh-Hans": "饮料" }
+    },
+    {
+      "id": "dessert",
+      "nameKey": "menu.catDessert",
+      "names": { "en": "Dessert", "ko": "디저트", "zh-Hant": "甜點", "zh-Hans": "甜点" }
+    }
+  ],
+  "items": [
+    {
+      "id": "karaage",
+      "category": "food",
+      "names": { "en": "Karaage (Fried Chicken)", "ko": "가라아게 (닭튀김)", "zh-Hant": "唐揚雞", "zh-Hans": "唐扬鸡" },
+      "descriptions": {
+        "en": "Crispy Japanese-style fried chicken, seasoned with soy sauce and ginger.",
+        "ko": "간장과 생강으로 양념한 바삭한 일본식 닭튀김.",
+        "zh-Hant": "酥脆的日式炸雞，以醬油和薑調味。",
+        "zh-Hans": "酥脆的日式炸鸡，以酱油和姜调味。"
+      },
+      "price": "¥490",
+      "image": "menu-karaage.svg",
+      "popular": true
+    },
+    {
+      "id": "fries",
+      "category": "food",
+      "names": { "en": "Seasoned Fries", "ko": "시즈닝 감자튀김", "zh-Hant": "調味薯條", "zh-Hans": "调味薯条" },
+      "descriptions": {
+        "en": "Golden crispy fries seasoned with original Manekineko spice blend.",
+        "ko": "마네키네코 오리지널 시즈닝으로 맛을 낸 황금빛 바삭한 감자튀김.",
+        "zh-Hant": "撒上招財貓獨家香料的金黃酥脆薯條。",
+        "zh-Hans": "撒上招财猫独家香料的金黄酥脆薯条。"
+      },
+      "price": "¥390",
+      "image": "menu-fries.svg",
+      "popular": true
+    },
+    {
+      "id": "pizza",
+      "category": "food",
+      "names": { "en": "Margherita Pizza", "ko": "마르게리타 피자", "zh-Hant": "瑪格麗特披薩", "zh-Hans": "玛格丽特披萨" },
+      "descriptions": {
+        "en": "Classic thin-crust pizza with tomato sauce, mozzarella, and fresh basil.",
+        "ko": "토마토 소스, 모짜렐라, 바질을 올린 클래식 씬크러스트 피자.",
+        "zh-Hant": "經典薄底披薩配番茄醬、馬蘇里拉奶酪和新鮮羅勒。",
+        "zh-Hans": "经典薄底披萨配番茄酱、马苏里拉奶酪和新鲜罗勒。"
+      },
+      "price": "¥890",
+      "image": "menu-pizza.svg",
+      "popular": false
+    },
+    {
+      "id": "edamame",
+      "category": "food",
+      "names": { "en": "Edamame", "ko": "에다마메", "zh-Hant": "毛豆", "zh-Hans": "毛豆" },
+      "descriptions": {
+        "en": "Lightly salted steamed edamame — perfect drinking snack.",
+        "ko": "가볍게 소금간한 찐 에다마메 — 음주 안주로 완벽.",
+        "zh-Hant": "輕微鹽漬的蒸毛豆 — 下酒的完美小吃。",
+        "zh-Hans": "轻微盐渍的蒸毛豆 — 下酒的完美小吃。"
+      },
+      "price": "¥290",
+      "image": "menu-edamame.svg",
+      "popular": false
+    },
+    {
+      "id": "cocktail-lemon",
+      "category": "drinks",
+      "names": { "en": "Lemon Sour Cocktail", "ko": "레몬 사워 칵테일", "zh-Hant": "檸檬酸味雞尾酒", "zh-Hans": "柠檬酸味鸡尾酒" },
+      "descriptions": {
+        "en": "Refreshing Japanese-style lemon sour with shochu and fresh lemon juice.",
+        "ko": "쇼츄와 신선한 레몬 주스로 만든 상쾌한 일본식 레몬 사워.",
+        "zh-Hant": "用燒酒和新鮮檸檬汁製作的清爽日式檸檬酸味飲料。",
+        "zh-Hans": "用烧酒和新鲜柠檬汁制作的清爽日式柠檬酸味饮料。"
+      },
+      "price": "¥490",
+      "image": "menu-cocktails.svg",
+      "popular": true
+    },
+    {
+      "id": "highball",
+      "category": "drinks",
+      "names": { "en": "Whisky Highball", "ko": "위스키 하이볼", "zh-Hant": "威士忌高球", "zh-Hans": "威士忌高球" },
+      "descriptions": {
+        "en": "Classic Japanese-style whisky highball with sparkling water.",
+        "ko": "탄산수와 함께하는 클래식 일본식 위스키 하이볼.",
+        "zh-Hant": "用氣泡水製作的經典日式威士忌高球。",
+        "zh-Hans": "用气泡水制作的经典日式威士忌高球。"
+      },
+      "price": "¥490",
+      "image": "menu-highball.svg",
+      "popular": false
+    },
+    {
+      "id": "soft-drink",
+      "category": "drinks",
+      "names": { "en": "Soft Drink", "ko": "소프트 드링크", "zh-Hant": "軟飲料", "zh-Hans": "软饮料" },
+      "descriptions": {
+        "en": "Wide selection of soft drinks including cola, ginger ale, and orange juice.",
+        "ko": "콜라, 진저에일, 오렌지 주스 등 다양한 소프트 드링크.",
+        "zh-Hant": "多種軟飲料，包括可樂、薑汁汽水和橙汁。",
+        "zh-Hans": "多种软饮料，包括可乐、姜汁汽水和橙汁。"
+      },
+      "price": "¥290",
+      "image": "menu-softdrink.svg",
+      "popular": false
+    },
+    {
+      "id": "ice-cream",
+      "category": "dessert",
+      "names": { "en": "Soft Serve Ice Cream", "ko": "소프트 아이스크림", "zh-Hant": "霜淇淋", "zh-Hans": "软冰淇淋" },
+      "descriptions": {
+        "en": "Creamy soft serve ice cream in vanilla or matcha flavour.",
+        "ko": "바닐라 또는 말차 맛의 부드러운 소프트 아이스크림.",
+        "zh-Hant": "香草或抹茶口味的濃郁霜淇淋。",
+        "zh-Hans": "香草或抹茶口味的浓郁软冰淇淋。"
+      },
+      "price": "¥290",
+      "image": "menu-icecream.svg",
+      "popular": false
+    }
+  ]
+}

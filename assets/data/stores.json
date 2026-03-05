@@ -1,0 +1,76 @@
+{
+  "stores": [
+    {
+      "id": "shibuya",
+      "names": { "en": "Shibuya Store", "ko": "시부야점", "zh-Hant": "澀谷店", "zh-Hans": "涩谷店" },
+      "area": "Tokyo",
+      "areaNames": { "en": "Tokyo", "ko": "도쿄", "zh-Hant": "東京", "zh-Hans": "东京" },
+      "address": "1-22-14 Dogenzaka, Shibuya-ku, Tokyo",
+      "hours": "11:00 - 05:00",
+      "access": "3 min walk from Shibuya Station",
+      "image": "store-shibuya.svg",
+      "featured": true,
+      "features": ["E-bo", "Raibo", "24h Weekends"]
+    },
+    {
+      "id": "shinjuku",
+      "names": { "en": "Shinjuku Store", "ko": "신주쿠점", "zh-Hant": "新宿店", "zh-Hans": "新宿店" },
+      "area": "Tokyo",
+      "areaNames": { "en": "Tokyo", "ko": "도쿄", "zh-Hant": "東京", "zh-Hans": "东京" },
+      "address": "3-28-9 Shinjuku, Shinjuku-ku, Tokyo",
+      "hours": "11:00 - 05:00",
+      "access": "5 min walk from Shinjuku Station East Exit",
+      "image": "store-shinjuku.svg",
+      "featured": true,
+      "features": ["E-bo", "Raibo", "Large Party Rooms"]
+    },
+    {
+      "id": "akihabara",
+      "names": { "en": "Akihabara Store", "ko": "아키하바라점", "zh-Hant": "秋葉原店", "zh-Hans": "秋叶原店" },
+      "area": "Tokyo",
+      "areaNames": { "en": "Tokyo", "ko": "도쿄", "zh-Hant": "東京", "zh-Hans": "东京" },
+      "address": "5-4-8 Sotokanda, Chiyoda-ku, Tokyo",
+      "hours": "11:00 - 23:00",
+      "access": "2 min walk from Akihabara Station",
+      "image": "store-akihabara.svg",
+      "featured": false,
+      "features": ["E-bo", "Anime Songs Special"]
+    },
+    {
+      "id": "osaka-namba",
+      "names": { "en": "Osaka Namba Store", "ko": "오사카 난바점", "zh-Hant": "大阪難波店", "zh-Hans": "大阪难波店" },
+      "area": "Osaka",
+      "areaNames": { "en": "Osaka", "ko": "오사카", "zh-Hant": "大阪", "zh-Hans": "大阪" },
+      "address": "2-11-19 Namba, Chuo-ku, Osaka",
+      "hours": "11:00 - 05:00",
+      "access": "3 min walk from Namba Station",
+      "image": "store-osaka.svg",
+      "featured": true,
+      "features": ["E-bo", "Raibo", "All-Night Plan"]
+    },
+    {
+      "id": "kyoto-shijo",
+      "names": { "en": "Kyoto Shijo Store", "ko": "교토 시조점", "zh-Hant": "京都四條店", "zh-Hans": "京都四条店" },
+      "area": "Kyoto",
+      "areaNames": { "en": "Kyoto", "ko": "교토", "zh-Hant": "京都", "zh-Hans": "京都" },
+      "address": "79-3 Shimogyo-ku, Kyoto",
+      "hours": "12:00 - 02:00",
+      "access": "5 min walk from Shijo Station",
+      "image": "store-kyoto.svg",
+      "featured": false,
+      "features": ["E-bo", "English Staff"]
+    },
+    {
+      "id": "sapporo",
+      "names": { "en": "Sapporo Store", "ko": "삿포로점", "zh-Hant": "札幌店", "zh-Hans": "札幌店" },
+      "area": "Hokkaido",
+      "areaNames": { "en": "Hokkaido", "ko": "홋카이도", "zh-Hant": "北海道", "zh-Hans": "北海道" },
+      "address": "2-3 Minami 3jo Nishi, Chuo-ku, Sapporo",
+      "hours": "11:00 - 03:00",
+      "access": "7 min walk from Odori Station",
+      "image": "store-sapporo.svg",
+      "featured": false,
+      "features": ["E-bo", "Raibo"]
+    }
+  ]
+}

@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Stores | Karaoke Manekineko</title>
+  <meta name="description" content="Find Karaoke Manekineko locations across Japan. Stores in Tokyo (Shibuya, Shinjuku, Akihabara), Osaka, Kyoto, Sapporo and more.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://manekineko-inbound.example.com/pages/stores.html">
+
+  <!-- hreflang -->
+  <link rel="alternate" hreflang="en"      href="https://manekineko-inbound.example.com/pages/stores.html?lang=en">
+  <link rel="alternate" hreflang="ko"      href="https://manekineko-inbound.example.com/pages/stores.html?lang=ko">
+  <link rel="alternate" hreflang="zh-Hant" href="https://manekineko-inbound.example.com/pages/stores.html?lang=zh-Hant">
+  <link rel="alternate" hreflang="zh-Hans" href="https://manekineko-inbound.example.com/pages/stores.html?lang=zh-Hans">
+  <link rel="alternate" hreflang="x-default" href="https://manekineko-inbound.example.com/pages/stores.html">
+
+  <!-- OpenGraph -->
+  <meta property="og:type"        content="website">
+  <meta property="og:url"         content="https://manekineko-inbound.example.com/pages/stores.html">
+  <meta property="og:title"       content="Stores | Karaoke Manekineko">
+  <meta property="og:description" content="Find Karaoke Manekineko locations across Japan. Tokyo, Osaka, Kyoto, and more.">
+  <meta property="og:image"       content="https://manekineko-inbound.example.com/assets/img/store-shibuya.svg">
+  <meta property="og:site_name"   content="Karaoke Manekineko">
+
+  <!-- Structured Data: LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Karaoke Manekineko Store Locations",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@type": "EntertainmentBusiness",
+          "name": "Karaoke Manekineko Shibuya",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "1-22-14 Dogenzaka",
+            "addressLocality": "Shibuya-ku",
+            "addressRegion": "Tokyo",
+            "addressCountry": "JP"
+          },
+          "openingHours": "Mo-Su 11:00-05:00"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@type": "EntertainmentBusiness",
+          "name": "Karaoke Manekineko Shinjuku",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "3-28-9 Shinjuku",
+            "addressLocality": "Shinjuku-ku",
+            "addressRegion": "Tokyo",
+            "addressCountry": "JP"
+          },
+          "openingHours": "Mo-Su 11:00-05:00"
+        }
+      }
+    ]
+  }
+  </script>
+
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <style>
+    .stores-filter {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-bottom: 32px;
+    }
+    .stores-filter__btn {
+      padding: 8px 18px;
+      font-size: 14px;
+      font-weight: 600;
+      border: 2px solid var(--color-border);
+      border-radius: var(--radius-pill);
+      background: transparent;
+      color: var(--color-text-light);
+      cursor: pointer;
+      transition: all var(--transition);
+    }
+    .stores-filter__btn:hover,
+    .stores-filter__btn.active {
+      border-color: var(--color-primary);
+      color: var(--color-primary);
+      background: rgba(230,0,18,0.04);
+    }
+  </style>
+</head>
+<body data-base-path="../">
+
+  <div id="header-placeholder"></div>
+
+  <main id="main-content">
+
+    <section class="page-hero" aria-labelledby="page-title">
+      <div class="container">
+        <h1 class="page-hero__title" id="page-title" data-i18n="stores.title">Recommended Stores</h1>
+        <p class="page-hero__subtitle" data-i18n="stores.subtitle">Find a Manekineko location near you</p>
+      </div>
+    </section>
+
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <div class="container">
+        <ol class="breadcrumb__list" role="list">
+          <li><a class="breadcrumb__link" href="../index.html" data-i18n="nav.home">Home</a></li>
+          <li class="breadcrumb__sep" aria-hidden="true">›</li>
+          <li aria-current="page" data-i18n="nav.stores">Stores</li>
+        </ol>
+      </div>
+    </nav>
+
+    <!-- Tokyo Stores -->
+    <section class="section" aria-labelledby="tokyo-title">
+      <div class="container">
+        <div class="section__header" style="text-align:left;margin-bottom:24px;">
+          <span class="section__tag">Tokyo</span>
+          <h2 class="section__title" id="tokyo-title">Tokyo Stores</h2>
+        </div>
+        <div class="card-grid card-grid--3" role="list">
+
+          <article class="store-card" role="listitem">
+            <div class="store-card__img-wrap">
+              <img src="../assets/img/store-shibuya.svg" width="600" height="338"
+                alt="Karaoke Manekineko Shibuya store exterior at night with red neon signage" class="store-card__img">
+            </div>
+            <div class="store-card__body">
+              <span class="store-card__area">Tokyo</span>
+              <h3 class="store-card__name">Shibuya Store</h3>
+              <div class="store-card__meta">
+                <div class="store-card__meta-item">
+                  <span aria-hidden="true">&#128205;</span>
+                  <span>1-22-14 Dogenzaka, Shibuya-ku, Tokyo</span>
+                </div>
+                <div class="store-card__meta-item">
+                  <span aria-hidden="true">&#128336;</span>
+                  <span>11:00 - 05:00</span>
+                </div>
+                <div class="store-card__meta-item">
+                  <span aria-hidden="true">&#128652;</span>
+                  <span>3 min walk from Shibuya Station</span>
+                </div>
+              </div>
+              <div class="store-card__features">
+                <span class="store-card__feature-tag">E-bo</span>
+                <span class="store-card__feature-tag">Raibo</span>
+                <span class="store-card__feature-tag">24h Weekends</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="store-card" role="listitem">
+            <div class="store-card__img-wrap">
+              <img src="../assets/img/store-shinjuku.svg" width="600" height="338"
+                alt="Karaoke Manekineko Shinjuku store with purple neon lights at night in Tokyo" class="store-card__img">
+            </div>
+            <div class="store-card__body">
+              <span class="store-card__area">Tokyo</span>
+              <h3 class="store-card__name">Shinjuku Store</h3>
+              <div class="store-card__meta">
+                <div class="store-card__meta-item">
+                  <span aria-hidden="true">&#128205;</span>
+                  <span>3-28-9 Shinjuku, Shinjuku-ku, Tokyo</span>
+                </div>
+                <div class="store-card__meta-item">
+                  <span aria-hidden="true">&#128336;</span>
+                  <span>11:00 - 05:00</span>
+                </div>
+                <div class="store-card__meta-item">
+                  <span aria-hidden="true">&#128652;</span>
+                  <span>5 min walk from Shinjuku Station East Exit</span>
+                </div>
+              </div>
+              <div class="store-card__features">
+                <span class="store-card__feature-tag">E-bo</span>
+                <span class="store-card__feature-tag">Raibo</span>
+                <span class="store-card__feature-tag">Large Party Rooms</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="store-card" role="listitem">
+            <div class="store-card__img-wrap">
+              <img src="../assets/img/store-shibuya.svg" width="600" height="338"
+                alt="Karaoke Manekineko Akihabara store near the famous electronics district in Tokyo" class="store-card__img">
+            </div>
+            <div class="store-card__body">
+              <span class="store-card__area">Tokyo</span>
+              <h3 class="store-card__name">Akihabara Store</h3>
+              <div class="store-card__meta">
+                <div class="store-card__meta-item">
+                  <span aria-hidden="true">&#128205;</span>
+                  <span>5-4-8 Sotokanda, Chiyoda-ku, Tokyo</span>
+                </div>
+                <div class="store-card__meta-item">
+                  <span aria-hidden="true">&#128336;</span>
+                  <span>11:00 - 23:00</span>
+                </div>
+                <div class="store-card__meta-item">
+                  <span aria-hidden="true">&#128652;</span>
+                  <span>2 min walk from Akihabara Station</span>
+                </div>
+              </div>
+              <div class="store-card__features">
+                <span class="store-card__feature-tag">E-bo</span>
+                <span class="store-card__feature-tag">Anime Songs</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Osaka Stores -->
+    <section class="section section--alt" aria-labelledby="osaka-title">
+      <div class="container">
+        <div class="section__header" style="text-align:left;margin-bottom:24px;">
+          <span class="section__tag">Osaka</span>
+          <h2 class="section__title" id="osaka-title">Osaka Stores</h2>
+        </div>
+        <div class="card-grid card-grid--3" role="list">
+
+          <article class="store-card" role="listitem">
+            <div class="store-card__img-wrap">
+              <img src="../assets/img/store-shinjuku.svg" width="600" height="338"
+                alt="Karaoke Manekineko Osaka Namba store in the heart of Osaka nightlife district" class="store-card__img">
+            </div>
+            <div class="store-card__body">
+              <span class="store-card__area">Osaka</span>
+              <h3 class="store-card__name">Osaka Namba Store</h3>
+              <div class="store-card__meta">
+                <div class="store-card__meta-item">
+                  <span aria-hidden="true">&#128205;</span>
+                  <span>2-11-19 Namba, Chuo-ku, Osaka</span>
+                </div>
+                <div class="store-card__meta-item">
+                  <span aria-hidden="true">&#128336;</span>
+                  <span>11:00 - 05:00</span>
+                </div>
+                <div class="store-card__meta-item">
+                  <span aria-hidden="true">&#128652;</span>
+                  <span>3 min walk from Namba Station</span>
+                </div>
+              </div>
+              <div class="store-card__features">
+                <span class="store-card__feature-tag">E-bo</span>
+                <span class="store-card__feature-tag">Raibo</span>
+                <span class="store-card__feature-tag">All-Night Plan</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Kyoto / Hokkaido -->
+    <section class="section" aria-labelledby="other-title">
+      <div class="container">
+        <div class="section__header" style="text-align:left;margin-bottom:24px;">
+          <span class="section__tag">More Locations</span>
+          <h2 class="section__title" id="other-title">Kyoto &amp; Hokkaido</h2>
+        </div>
+        <div class="card-grid card-grid--3" role="list">
+
+          <article class="store-card" role="listitem">
+            <div class="store-card__img-wrap">
+              <img src="../assets/img/store-shibuya.svg" width="600" height="338"
+                alt="Karaoke Manekineko Kyoto Shijo store near the traditional Gion district" class="store-card__img">
+            </div>
+            <div class="store-card__body">
+              <span class="store-card__area">Kyoto</span>
+              <h3 class="store-card__name">Kyoto Shijo Store</h3>
+              <div class="store-card__meta">
+                <div class="store-card__meta-item">
+                  <span aria-hidden="true">&#128205;</span>
+                  <span>79-3 Shimogyo-ku, Kyoto</span>
+                </div>
+                <div class="store-card__meta-item">
+                  <span aria-hidden="true">&#128336;</span>
+                  <span>12:00 - 02:00</span>
+                </div>
+                <div class="store-card__meta-item">
+                  <span aria-hidden="true">&#128652;</span>
+                  <span>5 min walk from Shijo Station</span>
+                </div>
+              </div>
+              <div class="store-card__features">
+                <span class="store-card__feature-tag">E-bo</span>
+                <span class="store-card__feature-tag">English Staff</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="store-card" role="listitem">
+            <div class="store-card__img-wrap">
+              <img src="../assets/img/store-shinjuku.svg" width="600" height="338"
+                alt="Karaoke Manekineko Sapporo store in Hokkaido with snow scene outside" class="store-card__img">
+            </div>
+            <div class="store-card__body">
+              <span class="store-card__area">Hokkaido</span>
+              <h3 class="store-card__name">Sapporo Store</h3>
+              <div class="store-card__meta">
+                <div class="store-card__meta-item">
+                  <span aria-hidden="true">&#128205;</span>
+                  <span>2-3 Minami 3jo Nishi, Chuo-ku, Sapporo</span>
+                </div>
+                <div class="store-card__meta-item">
+                  <span aria-hidden="true">&#128336;</span>
+                  <span>11:00 - 03:00</span>
+                </div>
+                <div class="store-card__meta-item">
+                  <span aria-hidden="true">&#128652;</span>
+                  <span>7 min walk from Odori Station</span>
+                </div>
+              </div>
+              <div class="store-card__features">
+                <span class="store-card__feature-tag">E-bo</span>
+                <span class="store-card__feature-tag">Raibo</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section" aria-labelledby="cta-title">
+      <div class="container">
+        <h2 class="cta-section__title" id="cta-title" data-i18n="cta.title">Ready to Sing?</h2>
+        <p class="cta-section__subtitle" data-i18n="cta.subtitle">Find your nearest Manekineko store and book today!</p>
+        <div class="cta-section__actions">
+          <a href="../pages/service.html" class="btn btn-secondary btn-lg" data-i18n="cta.buttonSub">View Plans</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <div id="footer-placeholder"></div>
+
+  <script src="../assets/js/components.js"></script>
+  <script src="../assets/js/i18n.js"></script>
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>
